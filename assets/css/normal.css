@@ -97,7 +97,7 @@
 }
 
 .center_main_projects_list {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1em
 }
@@ -150,7 +150,7 @@
 .top img {
     position: fixed;
     top: calc((8vh - 1.776em) / 2);
-    width: 4.644em;
+    width: 2.3em;
     /*height: 1.776em;*/
 }
 

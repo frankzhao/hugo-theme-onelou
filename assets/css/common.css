@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #cc7832;
+    --primary-color: #0cc57a;
     --font-color: #d0d3d8;
     --body-background-color: #17181a;
     --content-background-color: #1f2022;
@@ -51,8 +51,8 @@ body {
 .center_head h1 {
     font-family: var(--title-font-family);
     margin: 0;
-    text-align: center;
-    color: var(--primary-color);
+    text-align: left;
+    color: #fff;
 }
 
 .opengraph {
@@ -315,4 +315,8 @@ body {
 .pagination .current {
     font-weight: bold;
     background-color: var(--scorllbar-color);
+}
+
+.rounded {
+    border-radius: 50%;
 }

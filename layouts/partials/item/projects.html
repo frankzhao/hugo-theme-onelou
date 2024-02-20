@@ -8,19 +8,20 @@
         margin: 0;
     }
 
-    label {
+    p {
         color: var(--font-color);
+        margin: 1em 0 1em 0;
     }
 
     article {
-        padding-bottom: 1em;
+        padding-bottom: 2em;
     }
 
 </style>
 <a href="{{ or .Params.customURL .RelPermalink}}" style="text-decoration: none;">
     <article>
-        <img src="{{ .Params.cover }}">
+<!--        <img src="{{ .Params.cover }}">-->
         <h2>{{ .Name }}</h2>
-        <label>{{ .Description }}</label>
+        <p>{{ .Description }}</p>
     </article>
 </a>
