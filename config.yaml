@@ -26,8 +26,14 @@ menu:
         img: /img/pencil.png
       url: 'https://blog.frankzhao.net'
       weight: 1
-#    - name: Projects
-#      params:
-#        img: /img/file.png
-#      url: '/projects'
-#      weight: 1
+    - name: Projects
+      params:
+        img: /img/file.png
+      url: '/projects'
+      weight: 1
+
+    - name: Tools
+      params:
+        img: /img/toolbox.png
+      url: '/tools'
+      weight: 1

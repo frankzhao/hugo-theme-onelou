@@ -1,6 +1,6 @@
 <img src="/img/dp.png" class="rounded"/>
 <h1>{{ .Title }}</h1>
-<h3 style="font-weight: normal">Hello! I build software from Australia.</h3>
+<h3 style="font-weight: normal">{{ .Site.Params.subtitle }}</h3>
 <div class="site-nav">
     {{ range .Site.Menus.navs }}
     <a href="{{ .URL }}">

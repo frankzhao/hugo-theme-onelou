@@ -8,6 +8,10 @@
         margin: 0;
     }
 
+    a {
+      color: var(--font-color);
+    }
+
     p {
         color: var(--font-color);
         margin: 1em 0 1em 0;
@@ -17,11 +21,22 @@
         padding-bottom: 2em;
     }
 
+    li {
+      margin-bottom: 0.3em;
+    }
+
 </style>
-<a href="{{ or .Params.customURL .RelPermalink}}" style="text-decoration: none;">
-    <article>
-<!--        <img src="{{ .Params.cover }}">-->
-        <h2>{{ .Name }}</h2>
-        <p>{{ .Description }}</p>
-    </article>
-</a>
+<!--<a href="{{ or .Params.customURL .RelPermalink}}" style="text-decoration: none;">-->
+<!--    <article>-->
+<!--&lt;!&ndash;        <img src="{{ .Params.cover }}">&ndash;&gt;-->
+<!--        <h2>{{ .Name }}</h2>-->
+<!--        <p>{{ .Description }}</p>-->
+<!--    </article>-->
+<!--</a>-->
+
+<article>
+  <!--        <img src="{{ .Params.cover }}">-->
+  <h2>{{ .Name }}</h2>
+  <p>{{ .Description }}</p>
+  <p>{{ .Content }}</p>
+</article>
