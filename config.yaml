@@ -17,8 +17,8 @@ params:
     since: 2024
     copyright: Frank Zhao
   prefix:
-    h2: "※ "
-    h3: "✧ "
+    h2: ""
+    h3: ""
 menu:
   navs:
     - name: Blog
